@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('./fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    /* Add other font formats if you have them (e.g., woff, woff2, etc.) */
+    font-weight: normal;
+    font-style: normal;
+  }
