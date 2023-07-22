@@ -9,9 +9,9 @@ const FeatureCard = (props) => {
         <FontAwesomeIcon icon={icon} size="2x" className="text-white" />
       </div>
 
-      <div className="relative">
+      <div className="relative group">
         <img src={url} alt="feature" className="relative z-20" />
-        <div className="absolute inset-0 border-2 border-[#96a3b9] z-10 transform translate-x-4 -translate-y-4"></div>
+        <div className="absolute inset-0 border-[2px] border-[#212E40] z-10 transform translate-x-4 -translate-y-4 transition-transform duration-300 ease-in-out group-hover:-translate-x-0 group-hover:translate-y-0"></div>
       </div>
 
       <div className="px-2 py-4">

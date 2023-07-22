@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <div className="h-[20%] px-[12vw]">
-      <div className="grid md:grid-cols-[2fr,1fr,1fr,1fr,1fr] sm:grid-cols-1">
-        <div className="">
+      <div className="grid grid-cols-1 md:grid-cols-[2fr,1fr,1fr,1fr,1fr]">
+        <div>
           <svg
             className="w-8 h-8 text-white mt-8 mb-6"
             xmlns="http://www.w3.org/2000/svg"
@@ -74,14 +74,14 @@ const Footer = () => {
         </div>
       </div>
       <hr className="my-8" />
-      <div className="flex flex-col sm:flex-row justify-between">
-        <div className="flex">
-          <p className=" pb-4 text-[#64748b] text-[14px]">
+      <div className="flex flex-col md:flex-row justify-between">
+        <div>
+          <p className="pb-4 text-[#64748b] text-[14px]">
             © Cruip.com. All rights reserved.
           </p>
         </div>
 
-        <div className="flex flex-row justify-evenly space-x-4 pb-4">
+        <div className="flex flex-row justify-start space-x-4 pb-4">
           <svg
             className="w-6 h-6 text-white"
             viewBox="0 0 20 20"
