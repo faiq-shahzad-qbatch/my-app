@@ -3,15 +3,15 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 const HeroCard = () => {
   return (
-    <div className="max-w-sm mx-auto bg-white rounded-lg overflow-hidden px-12 py-6">
-      <div className="bg-blue-500 rounded-full w-14 h-14 flex items-center justify-center">
+    <div className="mx-auto max-w-sm overflow-hidden rounded-lg bg-white px-12 py-6">
+      <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-500">
         <FontAwesomeIcon icon={faFile} size="2x" className="text-white" />
       </div>
       <div className="px-2 py-4">
-        <div className="font-[PlayfairDisplay] font-bold text-xl mb-2">
+        <div className="mb-2 font-[PlayfairDisplay] text-xl font-bold">
           Robust Workflow
         </div>
-        <p className="text-gray-600 text-base">
+        <p className="text-base text-gray-600">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur.
         </p>
