@@ -21,7 +21,7 @@ const FeaturePage = () => {
     <>
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-center justify-center">
-          <h1 className="font-[PlayfairDisplay] font-bold text-white text-5xl mb-4 text-center px-20 py-20">
+          <h1 className="font-[PlayfairDisplay] font-bold text-white text-5xl mb-4 text-center py-20">
             Simplify operating and manage
             <br />
             with transparency

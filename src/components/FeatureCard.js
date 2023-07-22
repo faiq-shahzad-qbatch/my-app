@@ -4,7 +4,7 @@ const FeatureCard = (props) => {
   const { url, icon } = props; // Destructure the url prop from the props object
 
   return (
-    <div className="max-w-lg mx-auto bg-transparent overflow-hidden px-4">
+    <div className="max-w-sm mx-auto bg-transparent overflow-hidden px-4">
       <div className="relative top-8 left-8 flex items-center justify-center bg-blue-500 rounded-full w-16 h-16 z-30">
         <FontAwesomeIcon icon={icon} size="2x" className="text-white" />
       </div>
@@ -16,11 +16,11 @@ const FeatureCard = (props) => {
 
       <div className="px-2 py-4">
         <div className="font-[PlayfairDisplay] font-bold text-xl mb-2">
-          Robust Workflow
+          Advanced Features
         </div>
         <p className="text-gray-600 text-base">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur.
+          Lorem ipsum is placeholder text used in the graphic, print, and
+          publishing for previewing layouts.
         </p>
       </div>
     </div>

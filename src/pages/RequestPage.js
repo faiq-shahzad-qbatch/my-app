@@ -3,7 +3,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const RequestPage = () => {
   return (
-    <div className="h-[60vh] mt-[20vh] px-[11vw] bg-[#f1f5f9]">
+    <div className="h-[60%] px-[12vw] pb-[4vh]  bg-[#f1f5f9]">
       <div className="flex flex-col items-center justify-between ">
         <div className="relative">
           <svg
@@ -15,7 +15,7 @@ const RequestPage = () => {
 
           <h1 className="font-[PlayfairDisplay] font-bold text-black text-5xl text-center py-14">
             Say goodbye to long queues, big <br />
-            updates, and <span className="text-green-500">confusion</span>.
+            updates, and <span className="text-[#10B981]">confusion</span>.
           </h1>
         </div>
 

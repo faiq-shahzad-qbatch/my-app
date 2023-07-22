@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="h-[20vh] px-[11vw]">
-      <div className="grid grid-cols-[2fr,1fr,1fr,1fr,1fr]">
+    <div className="h-[20%] px-[12vw]">
+      <div className="grid md:grid-cols-[2fr,1fr,1fr,1fr,1fr] sm:grid-cols-1">
         <div className="">
           <svg
             className="w-8 h-8 text-white mt-8 mb-6"
@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="my-8" />
-      <div className="flex justify-between">
+      <div className="flex flex-col sm:flex-row justify-between">
         <div className="flex">
           <p className=" pb-4 text-[#64748b] text-[14px]">
             © Cruip.com. All rights reserved.
@@ -83,7 +83,7 @@ const Footer = () => {
 
         <div className="flex flex-row justify-evenly space-x-4 pb-4">
           <svg
-            class="w-6 h-6 text-white"
+            className="w-6 h-6 text-white"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
             fill="#5696FF"
@@ -92,7 +92,7 @@ const Footer = () => {
           </svg>
 
           <svg
-            class="w-6 h-6 text-white"
+            className="w-6 h-6 text-white"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
             fill="#5696FF"
@@ -101,7 +101,7 @@ const Footer = () => {
           </svg>
 
           <svg
-            class="w-6 h-6 text-white"
+            className="w-6 h-6 text-white"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
             fill="#5696FF"
@@ -110,14 +110,13 @@ const Footer = () => {
           </svg>
 
           <svg
-            class="w-6 h-6 text-white"
+            className="w-6 h-6 text-white"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
             fill="#5696FF"
           >
             <path d="M10.041 0C4.52 0 0 4.612 0 10.25c0 4.526 2.845 8.37 6.862 9.737.502.085.669-.257.669-.513v-1.708c-2.761.598-3.347-1.367-3.347-1.367-.419-1.196-1.088-1.537-1.088-1.537-1.004-.598 0-.598 0-.598 1.004.085 1.506 1.025 1.506 1.025.92 1.537 2.343 1.11 2.929.854.084-.683.335-1.11.67-1.367-2.26-.256-4.603-1.11-4.603-5.039 0-1.11.419-2.05 1.004-2.733 0-.342-.418-1.367.168-2.733 0 0 .836-.257 2.76 1.025.838-.257 1.674-.342 2.511-.342.837 0 1.674.085 2.51.342 1.925-1.367 2.762-1.025 2.762-1.025.586 1.452.167 2.477.084 2.733.669.683 1.004 1.623 1.004 2.733 0 3.93-2.343 4.783-4.603 5.04.335.341.67.939.67 1.879v2.818c0 .256.167.598.67.513 4.016-1.367 6.86-5.21 6.86-9.737C20.084 4.612 15.565 0 10.042 0Z"></path>
           </svg>
-          
         </div>
       </div>
     </div>

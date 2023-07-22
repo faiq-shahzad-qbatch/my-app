@@ -7,15 +7,15 @@ import "./playfair-display.css";
 import styled from "styled-components";
 
 const StyledGradientComponent = styled.div`
-  height: ${(props) => props.height || "100vh"};
-  padding: 0px 11vw;
+  height: ${(props) => props.height || "100%"};
+  padding: 0px 12vw;
   background: linear-gradient(175deg, #111d2d 50%, #ffffff 50%);
 `;
 
 function App() {
   return (
     <>
-      <StyledGradientComponent height={"200vh"}>
+      <StyledGradientComponent height={"200%"}>
         <Header />
         <HeroPage />
       </StyledGradientComponent>

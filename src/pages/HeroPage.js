@@ -27,9 +27,9 @@ const HeroPage = () => {
 
   return (
     <>
-      <div className="flex flex-row items-center justify-around mt-20">
-        <div className="flex flex-col">
-          <h1 className="font-[PlayfairDisplay] font-bold text-white  text-6xl mb-4">
+      <div className="flex flex-col sm:flex-row items-center justify-between sm:justify-around mt-4 md:mt-20">
+        <div className="flex flex-col items-center md:items-start mb-20 sm:mb-0">
+          <h1 className="mb-4 font-[PlayfairDisplay] font-bold text-white text-6xl">
             Create stunning
             <br />
             web experiences
@@ -43,7 +43,7 @@ const HeroPage = () => {
             results forever.
           </p>
 
-          <div className="flex flex-row items-center space-x-4 mt-6">
+          <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 space-y-4 md:space-y-0 mt-6">
             <button className="items-center justify-between bg-[#2174EA] hover:bg-[#1D4ED8] h-12 w-44 rounded-sm text-white group">
               Request a demo{" "}
               <FontAwesomeIcon
@@ -58,7 +58,7 @@ const HeroPage = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative flex">
           <img
             src="https://preview.cruip.com/tidy/images/hero-image-01.jpg"
             alt="hero"
