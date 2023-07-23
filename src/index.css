@@ -3,15 +3,11 @@
 @import "tailwindcss/utilities";
 
 body {
-  margin: 0;
-  /* padding: 0px 11vw; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* height: 200vh;
-  background: linear-gradient(175deg, #111d2d 50%, #ffffff 50%); */
 }
 
 code {

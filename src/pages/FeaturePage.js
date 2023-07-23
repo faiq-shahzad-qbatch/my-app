@@ -21,14 +21,12 @@ const FeaturePage = () => {
     <>
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-center justify-center">
-          <h1 className="font-[PlayfairDisplay] font-bold text-white text-5xl mb-4 text-center px-20 py-20">
-            Simplify operating and manage
-            <br />
-            with transparency
+          <h1 className="max-w-2xl pb-12 pt-16 text-center font-[PlayfairDisplay] text-[48px] font-bold leading-tight text-white">
+            Simplify operating and manage with transparency
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {cardData.map((item, index) => (
             <FeatureCard key={index} url={item.url} icon={item.icon} />
           ))}

@@ -4,23 +4,23 @@ const FeatureCard = (props) => {
   const { url, icon } = props; // Destructure the url prop from the props object
 
   return (
-    <div className="max-w-lg mx-auto bg-transparent overflow-hidden px-4">
-      <div className="relative top-8 left-8 flex items-center justify-center bg-blue-500 rounded-full w-16 h-16 z-30">
+    <div className="mx-auto max-w-sm overflow-hidden bg-transparent px-4">
+      <div className="relative left-8 top-8 z-30 flex h-16 w-16 items-center justify-center rounded-full bg-blue-500">
         <FontAwesomeIcon icon={icon} size="2x" className="text-white" />
       </div>
 
-      <div className="relative">
+      <div className="group relative">
         <img src={url} alt="feature" className="relative z-20" />
-        <div className="absolute inset-0 border-2 border-[#96a3b9] z-10 transform translate-x-4 -translate-y-4"></div>
+        <div className="absolute inset-0 z-10 -translate-y-4 translate-x-4 transform border-[2px] border-[#212E40] transition-transform duration-300 ease-in-out group-hover:-translate-x-0 group-hover:translate-y-0"></div>
       </div>
 
       <div className="px-2 py-4">
-        <div className="font-[PlayfairDisplay] font-bold text-xl mb-2">
-          Robust Workflow
+        <div className="mb-2 font-[PlayfairDisplay] text-xl font-bold">
+          Advanced Features
         </div>
-        <p className="text-gray-600 text-base">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur.
+        <p className="text-base text-gray-600">
+          Lorem ipsum is placeholder text used in the graphic, print, and
+          publishing for previewing layouts.
         </p>
       </div>
     </div>
