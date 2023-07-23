@@ -27,8 +27,8 @@ const HeroPage = () => {
 
   return (
     <>
-      <div className="mt-20 flex flex-col items-center justify-between lg:flex-row lg:justify-around">
-        <div className="flex flex-col items-center md:items-start">
+      <div className="mt-20 flex flex-col items-center justify-around lg:flex-row lg:justify-between">
+        <div className="flex basis-1/2 flex-col items-center md:items-start">
           <h1 className="mb-4 whitespace-nowrap font-[PlayfairDisplay] text-[48px] font-bold leading-tight tracking-wide text-white md:text-[64px]">
             Create stunning <br /> web experiences
           </h1>
@@ -53,11 +53,11 @@ const HeroPage = () => {
           </div>
         </div>
 
-        <div className="relative mt-20 lg:mt-0">
+        <div className="relative mt-20 max-w-xs basis-1/2 md:max-w-lg lg:mt-0">
           <img
             src="https://preview.cruip.com/tidy/images/hero-image-01.jpg"
             alt="hero"
-            className="relative z-20 max-w-xs md:max-w-lg"
+            className="relative z-20"
           />
           <div className="absolute inset-0 z-10 translate-x-4 translate-y-4 transform border-[2px] border-[#334155]"></div>
         </div>
