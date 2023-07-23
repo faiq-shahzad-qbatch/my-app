@@ -27,7 +27,7 @@ const RequestPage = () => {
         </p>
 
         <div className="mt-6 flex flex-row items-center space-x-4">
-          <button className="group h-12 w-44 items-center justify-between rounded-sm bg-[#2174EA] text-white hover:bg-[#1D4ED8]">
+          <button className="group h-12 w-44 items-center justify-between rounded-sm bg-[#2174EA] text-white transition duration-300 hover:bg-[#1D4ED8]">
             Request Demo{" "}
             <FontAwesomeIcon
               icon={faArrowRight}
