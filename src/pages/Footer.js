@@ -1,6 +1,8 @@
+import React from "react";
+
 const Footer = () => {
   return (
-    <div className="h-[20%] px-[12vw]">
+    <footer className="h-[20%] px-[12vw]">
       <div className="grid grid-cols-1 lg:grid-cols-[2fr,1fr,1fr,1fr,1fr]">
         <div>
           <svg
@@ -119,7 +121,7 @@ const Footer = () => {
           </svg>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

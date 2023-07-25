@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-[#111d2d] py-4">
+    <header className="bg-[#111d2d] py-4">
       <div className="flex flex-col justify-evenly space-y-5 lg:flex-row lg:items-center lg:justify-between lg:space-y-0">
         <div className="flex flex-row justify-between lg:hidden">
           <svg
@@ -114,7 +115,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-    </nav>
+    </header>
   );
 };
 

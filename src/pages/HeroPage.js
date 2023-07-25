@@ -28,7 +28,7 @@ const HeroPage = () => {
   return (
     <>
       <div className="mt-20 flex flex-col items-center justify-between lg:flex-row lg:justify-around">
-        <div className="flex max-w-xs flex-none basis-1/2 flex-col items-center lg:max-w-lg lg:items-start">
+        <div className="flex max-w-sm flex-none basis-1/2 flex-col items-center lg:max-w-lg lg:items-start">
           <h1 className="mb-4 whitespace-nowrap font-[PlayfairDisplay] text-4xl font-bold text-white lg:text-6xl">
             Create stunning <br /> web experiences
           </h1>
@@ -39,7 +39,7 @@ const HeroPage = () => {
           </p>
 
           <div className="mt-6 flex flex-col items-center space-x-0 space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0">
-            <button className="group h-12 w-[80vw] rounded-sm bg-[#2174EA] text-white transition duration-300 hover:bg-[#1D4ED8] lg:w-44">
+            <button className="group h-12 w-[80vw] rounded-sm bg-[#2174EA] text-white transition duration-300 hover:bg-[#1D4ED8] sm:w-[50vw] lg:w-44">
               Request Demo{" "}
               <FontAwesomeIcon
                 icon={faArrowRight}
@@ -47,7 +47,7 @@ const HeroPage = () => {
               />
             </button>
 
-            <button className="h-12 w-[80vw] rounded-sm bg-[#334155] text-white transition duration-300 hover:bg-[#1E293B] lg:w-44">
+            <button className="h-12 w-[80vw] rounded-sm bg-[#334155] text-white transition duration-300 hover:bg-[#1E293B] sm:w-[50vw] lg:w-44">
               Explore Product
             </button>
           </div>
