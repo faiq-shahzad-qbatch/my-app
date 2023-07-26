@@ -1,3 +1,5 @@
+import React from "react";
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FeatureCard = (props) => {
@@ -25,6 +27,11 @@ const FeatureCard = (props) => {
       </div>
     </div>
   );
+};
+
+FeatureCard.propTypes = {
+  url: PropTypes.string,
+  icon: PropTypes.string,
 };
 
 export default FeatureCard;

@@ -7,12 +7,15 @@ import FeaturePage from "./pages/FeaturePage";
 import RequestPage from "./pages/RequestPage";
 import Footer from "./pages/Footer";
 
+import React from "react";
+
 const StyledGradientComponent = styled.div`
   background: linear-gradient(175deg, #111d2d 50%, #ffffff 50%);
   padding: 0px 12vw;
 `;
 
 function App() {
+
   return (
     <>
       <StyledGradientComponent>
