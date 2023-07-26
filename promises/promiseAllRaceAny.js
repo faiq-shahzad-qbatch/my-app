@@ -1,10 +1,10 @@
-promise1 = new Promise((resolve) => {
+const promise1 = new Promise((resolve) => {
   setTimeout(() => {
     resolve("Resolved promise after 2s");
   }, 2000);
 });
 
-promise2 = new Promise((resolve) => {
+const promise2 = new Promise((resolve) => {
   setTimeout(() => {
     resolve("Resolved promise after 1s");
   }, 5000);

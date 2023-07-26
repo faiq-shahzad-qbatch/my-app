@@ -4,7 +4,7 @@ const promise = new Promise((resolve, reject) => {
     if (success) {
       resolve("Async operation successful.");
     } else {
-      reject("Async operation failed.");
+      reject(new Error("Async operation failed."));
     }
   }, 1000);
 });
@@ -22,13 +22,13 @@ promise.catch((error) => {
   console.error(error); // Output: "Async operation failed."
 });
 
-promise2 = Promise.resolve("Resolved promise.");
+const promise2 = Promise.resolve("Resolved promise.");
 
 promise2.then((result) => {
   console.log(result);
 });
 
-promise3 = Promise.reject("Rejected promise.");
+const promise3 = Promise.reject(new Error("Rejected promise."));
 
 promise3.catch((error) => {
   console.error(error); // Output: "Async operation failed."
