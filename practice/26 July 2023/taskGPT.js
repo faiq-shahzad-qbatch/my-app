@@ -32,14 +32,14 @@ function predicateFunction(number) {
     setTimeout(() => {
       console.log("Processed element:", number);
       resolve();
-    }, Math.random() * 1000); // Random delay between 0 and 1000 milliseconds
+    }, 1000); // Random delay between 0 and 1000 milliseconds
   });
 }
 
 const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // Process elements of the array with a concurrency limit of 3
-processWithConcurrency(myArray, predicateFunction, 5)
+processWithConcurrency(myArray, predicateFunction, 3)
   .then(() => {
     console.log("All elements processed.");
   })
