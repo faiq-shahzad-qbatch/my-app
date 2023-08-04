@@ -15,7 +15,6 @@ const StyledGradientComponent = styled.div`
 `;
 
 function App() {
-
   return (
     <>
       <StyledGradientComponent>
