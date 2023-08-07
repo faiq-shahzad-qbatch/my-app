@@ -4,7 +4,8 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["standard", "plugin:react/recommended", "prettier"],
+  //   extends: ["standard", "plugin:react/recommended", "prettier"],
+  extends: ["react-app", "plugin:react/recommended", "prettier"],
   overrides: [
     {
       env: {
