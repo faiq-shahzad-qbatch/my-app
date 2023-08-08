@@ -1,4 +1,5 @@
 import React, { memo, useState } from "react";
+import PropTypes from "prop-types";
 
 const Greetings = memo(function Greetings({ name }) {
   console.log("Component rendered!");
@@ -18,7 +19,11 @@ const Greetings = memo(function Greetings({ name }) {
   );
 });
 
-function MyComponent2() {
+Greetings.propTypes = {
+  name: PropTypes.string.isRequired,
+};
+
+function ReactMemoExample() {
   const [name, setName] = useState("Faiq");
   const [age, setAge] = useState(23);
 
@@ -41,4 +46,4 @@ function MyComponent2() {
   );
 }
 
-export default MyComponent2;
+export default ReactMemoExample;

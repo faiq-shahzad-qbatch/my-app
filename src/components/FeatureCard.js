@@ -31,7 +31,7 @@ const FeatureCard = (props) => {
 
 FeatureCard.propTypes = {
   url: PropTypes.string,
-  icon: PropTypes.string,
+  icon: PropTypes.object,
 };
 
 export default FeatureCard;
