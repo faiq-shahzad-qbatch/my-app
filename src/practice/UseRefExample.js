@@ -1,19 +1,24 @@
-import React from "react";
-import { useEffect } from "react";
-import { useRef } from "react";
-// import PropTypes from "prop-types";
+import React, { useEffect, useState, useRef } from "react";
 
 function UseRefExample(props) {
-  const divRef = useRef(null);
+  const [count, setCount] = useState(0);
+  const countRef = useRef(count);
 
   useEffect(() => {
-    const myDiv = divRef.current;
-    myDiv.style.backgroundColor = "red";
-  }, []);
+    countRef.current = count;
+  }, [count]);
 
-  return <div ref={divRef}>UseRefExample</div>;
+  function incrementCount() {
+    setCount(count + 1);
+  }
+
+  return (
+    <>
+      <h1>Count: {count}</h1>
+      <h1>CountRef: {countRef.current}</h1>
+      <button onClick={incrementCount}>Increment Count</button>
+    </>
+  );
 }
-
-// UseRefExample.propTypes = {};
 
 export default UseRefExample;

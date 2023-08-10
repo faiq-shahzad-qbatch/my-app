@@ -4,6 +4,10 @@ import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+// Redux
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
 // import SetStateInUseEffect from "./practice/SetStateInUseEffect";
 // import UnMountFromUseEffect from "./practice/UnMountFromUseEffect";
 // import SetStateByValueVsWithFunction from "./practice/SetStateByValueVsWithFunction";
@@ -25,7 +29,13 @@ import reportWebVitals from "./reportWebVitals";
 // import ChildrenExample from "./practice/ChildrenExample";
 // import ControlledComponent from "./practice/ControlledComponent";
 // import UncontrolledComponent from "./practice/UncontrolledComponent";
-import PropDrilling from "./PropDrilling";
+// import PropDrilling from "./practice/PropDrilling";
+// import UseLayoutEffectExample from "./practice/UseLayoutEffectExample";
+// import UseReducerExample from "./practice/UseReducerExample";
+// import CustomHookExample from "./practice/custom_hooks/CustomHookExample";
+// import PersistStateAcrossComponentsUseRef from "./practice/PersistStateAcrossComponentsUseRef";
+// import ContextProvider from "./practice/update_context/ContextProvider";
+import ReduxExample from "./practice/redux_example/ReduxExample";
 
 // import 'bootstrap/dist/css/bootstrap.min.css'; // Import the Bootstrap styles
 // import './styles.css'; // Import the CSS file // Import the Tailwind CSS styles
@@ -56,7 +66,16 @@ root.render(
     {/* <ChildrenExample /> */}
     {/* <ControlledComponent /> */}
     {/* <UncontrolledComponent /> */}
-    <PropDrilling />
+    {/* <PropDrilling /> */}
+    {/* <UseLayoutEffectExample /> */}
+    {/* <UseReducerExample /> */}
+    {/* <CustomHookExample /> */}
+    {/* <PersistStateAcrossComponentsUseRef /> */}
+    {/* <ContextProvider /> */}
+    <Provider store={store}>
+      <ReduxExample />
+    </Provider>
+
     {/* </React.StrictMode> */}
   </>,
 );
