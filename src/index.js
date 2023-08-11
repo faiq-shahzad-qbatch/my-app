@@ -5,8 +5,8 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 // Redux
-import { Provider } from "react-redux";
-import store from "./redux/store";
+// import { Provider } from "react-redux";
+// import store from "./redux/store";
 
 // import SetStateInUseEffect from "./practice/SetStateInUseEffect";
 // import UnMountFromUseEffect from "./practice/UnMountFromUseEffect";
@@ -35,7 +35,10 @@ import store from "./redux/store";
 // import CustomHookExample from "./practice/custom_hooks/CustomHookExample";
 // import PersistStateAcrossComponentsUseRef from "./practice/PersistStateAcrossComponentsUseRef";
 // import ContextProvider from "./practice/update_context/ContextProvider";
-import ReduxExample from "./practice/redux_example/ReduxExample";
+// import ReduxExample from "./practice/redux_example/ReduxExample";
+// import Immutable from "./redux_course/Immutable";
+// import Immer from "./redux_course/Immer";
+import Driver from "./redux_course/Driver";
 
 // import 'bootstrap/dist/css/bootstrap.min.css'; // Import the Bootstrap styles
 // import './styles.css'; // Import the CSS file // Import the Tailwind CSS styles
@@ -72,10 +75,12 @@ root.render(
     {/* <CustomHookExample /> */}
     {/* <PersistStateAcrossComponentsUseRef /> */}
     {/* <ContextProvider /> */}
-    <Provider store={store}>
+    {/* <Provider store={store}>
       <ReduxExample />
-    </Provider>
-
+    </Provider> */}
+    {/* <Immutable /> */}
+    {/* <Immer /> */}
+    <Driver />
     {/* </React.StrictMode> */}
   </>,
 );
