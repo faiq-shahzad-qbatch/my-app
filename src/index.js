@@ -38,7 +38,8 @@ import reportWebVitals from "./reportWebVitals";
 // import ReduxExample from "./practice/redux_example/ReduxExample";
 // import Immutable from "./redux_course/Immutable";
 // import Immer from "./redux_course/Immer";
-import Driver from "./redux_course/Driver";
+// import Driver from "./redux_course/Driver";
+import CustomHookExample2 from "./practice/custom_hooks/CustomHookExample2";
 
 // import 'bootstrap/dist/css/bootstrap.min.css'; // Import the Bootstrap styles
 // import './styles.css'; // Import the CSS file // Import the Tailwind CSS styles
@@ -80,7 +81,8 @@ root.render(
     </Provider> */}
     {/* <Immutable /> */}
     {/* <Immer /> */}
-    <Driver />
+    {/* <Driver /> */}
+    <CustomHookExample2 />
     {/* </React.StrictMode> */}
   </>,
 );
