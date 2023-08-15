@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 // Redux
 // import { Provider } from "react-redux";
 // import store from "./redux/store";
+// import ReduxExample from "./practice/redux_example/ReduxExample";
 
 // import SetStateInUseEffect from "./practice/SetStateInUseEffect";
 // import UnMountFromUseEffect from "./practice/UnMountFromUseEffect";
@@ -32,14 +33,16 @@ import reportWebVitals from "./reportWebVitals";
 // import PropDrilling from "./practice/PropDrilling";
 // import UseLayoutEffectExample from "./practice/UseLayoutEffectExample";
 // import UseReducerExample from "./practice/UseReducerExample";
-// import CustomHookExample from "./practice/custom_hooks/CustomHookExample";
+// import UseOnlineStatusExample from "./practice/custom_hooks/UseOnlineStatusExample";
 // import PersistStateAcrossComponentsUseRef from "./practice/PersistStateAcrossComponentsUseRef";
 // import ContextProvider from "./practice/update_context/ContextProvider";
-// import ReduxExample from "./practice/redux_example/ReduxExample";
 // import Immutable from "./redux_course/Immutable";
 // import Immer from "./redux_course/Immer";
 // import Driver from "./redux_course/Driver";
-import CustomHookExample2 from "./practice/custom_hooks/CustomHookExample2";
+// import UseSessionStorageExample from "./practice/custom_hooks/UseSessionStorageExample";
+// import DebounceVsThrottle from "./practice/DebounceVsThrottle";
+// import UseDebounceEffectExample from "./practice/custom_hooks/UseDebounceEffectExample";
+// import UseContextCustomExample from "./practice/theme_context/UseContextCustomExample";
 
 // import 'bootstrap/dist/css/bootstrap.min.css'; // Import the Bootstrap styles
 // import './styles.css'; // Import the CSS file // Import the Tailwind CSS styles
@@ -48,6 +51,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     {/* <React.StrictMode> */}
+
+    {/* <Provider store={store}>
+      <ReduxExample />
+    </Provider> */}
+
     {/* <App /> */}
     {/* <SetStateInUseEffect /> */}
     {/* <UnMountFromUseEffect /> */}
@@ -73,17 +81,17 @@ root.render(
     {/* <PropDrilling /> */}
     {/* <UseLayoutEffectExample /> */}
     {/* <UseReducerExample /> */}
-    {/* <CustomHookExample /> */}
+    {/* <UseOnlineStatusExample /> */}
     {/* <PersistStateAcrossComponentsUseRef /> */}
     {/* <ContextProvider /> */}
-    {/* <Provider store={store}>
-      <ReduxExample />
-    </Provider> */}
     {/* <Immutable /> */}
     {/* <Immer /> */}
     {/* <Driver /> */}
-    <CustomHookExample2 />
+    {/* <UseSessionStorageExample /> */}
+    {/* <DebounceVsThrottle /> */}
     {/* </React.StrictMode> */}
+    {/* <UseDebounceEffectExample /> */}
+    {/* <UseContextCustomExample /> */}
   </>,
 );
 

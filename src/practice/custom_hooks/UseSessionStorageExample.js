@@ -1,7 +1,7 @@
 import React from "react";
 import useSessionStorage from "./useSessionStorage";
 
-function CustomHookExample2() {
+function UseSessionStorageExample() {
   const [value, setValue] = useSessionStorage("name", "");
 
   return (
@@ -11,4 +11,4 @@ function CustomHookExample2() {
   );
 }
 
-export default CustomHookExample2;
+export default UseSessionStorageExample;

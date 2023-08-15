@@ -1,7 +1,7 @@
 import React from "react";
 import useOnlineStatus from "./useOnlineStatus";
 
-function CustomHookExample() {
+function UseOnlineStatusExample() {
   const isOnline = useOnlineStatus();
   return (
     <>
@@ -10,4 +10,4 @@ function CustomHookExample() {
   );
 }
 
-export default CustomHookExample;
+export default UseOnlineStatusExample;

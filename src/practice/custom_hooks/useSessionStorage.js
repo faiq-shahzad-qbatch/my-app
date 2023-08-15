@@ -11,7 +11,7 @@ function getSavedValue(key, initialValue) {
   return initialValue;
 }
 
-export default function useLocalStorage(key, initialValue) {
+export default function useSessionStorage(key, initialValue) {
   const [value, setValue] = useState(() => getSavedValue(key, initialValue));
 
   useEffect(() => {

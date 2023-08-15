@@ -1,26 +1,18 @@
 import React from "react";
 import store from "./redux/store";
 
+import { addBug, removeBug } from "./redux/actionCreator";
+
 function Driver() {
   const unsubscribe = store.subscribe(() => {
     console.log("Store Changed!", store.getState());
   });
 
-  store.dispatch({
-    type: "ADD_BUG",
-    payload: {
-      description: "Hello, World!",
-    },
-  });
+  store.dispatch(addBug("Bug 1"));
 
   unsubscribe();
 
-  store.dispatch({
-    type: "REMOVE_BUG",
-    payload: {
-      id: 1,
-    },
-  });
+  store.dispatch(removeBug(1));
 
   console.log(store.getState());
 
